@@ -29,7 +29,7 @@ const Hero = () => {
               Salman Al Farisy Azhar
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm a dedicated student at Bina Nusantara University, specializing in Front-End Development and UI/UX Design. I'm passionate about crafting engaging user experiences through innovative design thinking and creating responsive web solutions. Let's collaborate and embark on a journey of creativity and excellence!
+              A curious Website Developer and UI/UX Design enthusiast passionate about creating seamless and impactful web experiences. Interested in software engineering and focused on building solutions that balance usability, performance, and scalability. Combines design intuition with clean, efficient code to deliver websites that look exceptional and work flawlessly.
             </p>
           </div>
 
