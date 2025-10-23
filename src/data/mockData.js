@@ -73,7 +73,7 @@ export const mockProjects = [
     id: 8,
     title: 'Lumine Dashboard',
     image: 'https://cdn.jsdelivr.net/gh/salmanizy/asset@master/assets/lumine.png',
-    category: 'Web Development',
+    category: 'UI/UX Design',
     description: 'UI/UX prototype designed in Figma for a video streaming platform\'s analytics. The dashboard features a clean, dual-tone blue interface, efficiently displaying key performance metrics. It provides an intuitive overview of data such as Monthly Views, a Daily Subscriber trend graph, and View Retention statistics. Furthermore, the dashboard includes a global map visualization for Viewers\' Geo Location and a clear Like/Dislike ratio pie chart, all accessible through a neatly organized sidebar navigation for Analytics, Promote, Adsense, and Settings, alongside user profile information.',
     technologies: ['Figma'],
     link: 'https://www.behance.net/gallery/165412037/Lumine-Dashboard',
