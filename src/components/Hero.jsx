@@ -41,6 +41,7 @@ const Hero = () => {
                   src="https://cdn.jsdelivr.net/gh/salmanizy/asset@master/assets/avatar.png"
                   alt="Salman Al Farisy Azhar"
                   className="w-80 h-80 object-cover rounded-2xl"
+                  loading="lazy"
                 />
               </div>
             </div>

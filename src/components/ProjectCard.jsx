@@ -19,6 +19,7 @@ const ProjectCard = ({ project }) => {
             src={project.image}
             alt={project.title}
             className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
+            loading="lazy"
           />
         </div>
         <div className="p-6">
@@ -48,6 +49,7 @@ const ProjectCard = ({ project }) => {
                 src={project.image}
                 alt={project.title}
                 className="w-full aspect-video object-cover"
+                loading="lazy"
               />
             </div>
 
