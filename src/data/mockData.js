@@ -1,6 +1,16 @@
 export const mockProjects = [
   {
     id: 1,
+    title: 'Rekobu',
+    image: 'https://cdn.jsdelivr.net/gh/salmanizy/asset@master/assets/rekobu.png',
+    category: 'Web Development',
+    description: 'A site that functions as a digital catalog or library platform that curates book recommendations from well-known figures (businesspeople, authors, public figures, etc.).',
+    technologies: ['Next JS', 'Typescript', 'Axios', 'Tailwind', 'React', 'SQL'],
+    link: 'https://rekobu.com',
+    completedDate: '2026-01'
+  },
+  {
+    id: 2,
     title: 'E-Medical Reimbursement',
     image: 'https://cdn.jsdelivr.net/gh/salmanizy/asset@master/assets/e-reimbursement.png',
     category: 'Web Development',
@@ -10,7 +20,7 @@ export const mockProjects = [
     completedDate: '2025-06'
   },
   {
-    id: 2,
+    id: 3,
     title: 'MetroFlick',
     image: 'https://cdn.jsdelivr.net/gh/salmanizy/asset@master/assets/metroflick.png',
     category: 'Web Development',
@@ -20,7 +30,7 @@ export const mockProjects = [
     completedDate: '2025-01'
   },
   {
-    id: 3,
+    id: 4,
     title: 'NiThrift',
     image: 'https://cdn.jsdelivr.net/gh/salmanizy/asset@master/assets/NiThrift.png',
     category: 'Web Development',
@@ -30,7 +40,7 @@ export const mockProjects = [
     completedDate: '2023-12'
   },
   {
-    id: 4,
+    id: 5,
     title: 'Cosmion',
     image: 'https://cdn.jsdelivr.net/gh/salmanizy/asset@master/assets/Cosmion.png',
     category: 'Web Development',
@@ -40,7 +50,7 @@ export const mockProjects = [
     completedDate: '2023-12'
   },
   {
-    id: 5,
+    id: 6,
     title: 'Movlight',
     image: 'https://cdn.jsdelivr.net/gh/salmanizy/asset@master/assets/Movlight.png',
     category: 'Web Development',
@@ -50,7 +60,7 @@ export const mockProjects = [
     completedDate: '2023-12'
   },
   {
-    id: 6,
+    id: 7,
     title: 'Vinyl',
     image: 'https://cdn.jsdelivr.net/gh/salmanizy/asset@master/assets/vinyl.png',
     category: 'UI/UX Design',
@@ -60,7 +70,7 @@ export const mockProjects = [
     completedDate: '2024-05'
   },
   {
-    id: 7,
+    id: 8,
     title: 'MoneySet',
     image: 'https://cdn.jsdelivr.net/gh/salmanizy/asset@master/assets/moneyset.png',
     category: 'UI/UX Design',
@@ -70,7 +80,7 @@ export const mockProjects = [
     completedDate: '2023-05'
   },
   {
-    id: 8,
+    id: 9,
     title: 'Lumine Dashboard',
     image: 'https://cdn.jsdelivr.net/gh/salmanizy/asset@master/assets/lumine.png',
     category: 'UI/UX Design',
@@ -80,7 +90,7 @@ export const mockProjects = [
     completedDate: '2023-03'
   },
   {
-    id: 9,
+    id: 10,
     title: 'Tales of Batara',
     image: 'https://cdn.jsdelivr.net/gh/salmanizy/asset@master/assets/tob.png',
     category: 'Game Development',
@@ -88,6 +98,16 @@ export const mockProjects = [
     technologies: ['C#', 'Unity'],
     link: 'https://tales-of-batara.gitbook.io/tales-of-batara/',
     completedDate: '2023-12'
+  },
+  {
+    id: 11,
+    title: 'Metric Dashboard',
+    image: 'https://cdn.jsdelivr.net/gh/salmanizy/asset@master/assets/metric-dashboard.png',
+    category: 'Web Development',
+    description: 'Track real-time customer satisfaction, monitor team response efficiency, analyze incoming ticket trends, and evaluate overall service performance to drive better support outcomes.',
+    technologies: ['React', 'Tailwind'],
+    link: 'https://github.com/salmanizy/metrics-dashboard',
+    completedDate: '2025-12'
   }
 ];
 
@@ -111,7 +131,7 @@ export const socialLinks = [
 
 export const toolbox = {
   webDev: [
-    'React', 'JavaScript', '.NET', 'VB.Net', 'Django', 
+    'React', 'Next JS', 'Typescript','JavaScript', '.NET', 'VB.Net', 'Django', 
     'PostgreSQL', 'MySQL Workbench', 'SQL Server Management Studio', 
     'Bootstrap', 'Tailwind'
   ],
