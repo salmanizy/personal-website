@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { mockProjects } from '../data/mockData';
 import ProjectCard from './ProjectCard';
 import { Input } from './ui/input';
@@ -8,12 +8,23 @@ import { Search } from 'lucide-react';
 const Projects = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [filterCategory, setFilterCategory] = useState('all');
+  const [debouncedSearchTerm, setDebouncedSearchTerm] = useState('');
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setDebouncedSearchTerm(searchTerm);
+    }, 500);
+
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [searchTerm]);
 
   const categories = ['all', ...new Set(mockProjects.map(p => p.category))];
 
   const filteredProjects = mockProjects.filter(project => {
-    const matchesSearch = project.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                         project.description.toLowerCase().includes(searchTerm.toLowerCase());
+    const matchesSearch = project.title.toLowerCase().includes(debouncedSearchTerm.toLowerCase()) ||
+                         project.description.toLowerCase().includes(debouncedSearchTerm.toLowerCase());
     const matchesCategory = filterCategory === 'all' || project.category === filterCategory;
     return matchesSearch && matchesCategory;
   });
