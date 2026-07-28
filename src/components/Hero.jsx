@@ -38,7 +38,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-purple-600 rounded-3xl blur-2xl opacity-20"></div>
               <div className="relative glass-card p-2 rounded-3xl">
                 <img
-                  src="https://cdn.jsdelivr.net/gh/salmanizy/asset@master/assets/avatar.png"
+                  src="https://cdn.jsdelivr.net/gh/salmanizy/asset@master/assets/avatar.webp"
                   alt="Salman Al Farisy Azhar"
                   className="w-80 h-80 object-cover rounded-2xl"
                   loading="lazy"
